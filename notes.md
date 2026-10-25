@@ -33,3 +33,18 @@ When I used `#main p`, all paragraphs inside the main section became red because
 | Attribute        | `input[required]` | Selects required input fields.                     |
 | Pseudo-class     | `a:hover`         | Styles a link when the mouse is over it.           |
 | Pseudo-element   | `h2::before`      | Adds content before a heading.                     |
+
+## Bug log (Lab 4, Task 6)
+
+| # | What was wrong (file and line) | Which tool showed it | My fix |
+|---|---|---|---|
+| 1 | Missing page language in bugs.html | Validator / Accessibility | Added lang="en" |
+| 2 | Navigation used a div in bugs.html | Accessibility Tree | Changed div to nav |
+| 3 | Heading level skipped in bugs.html | Lighthouse / Accessibility | Changed h4 to h2 |
+| 4 | Image had no alt text in bugs.html | Lighthouse | Added alt text |
+| 5 | Label and input did not match in bugs.html | Lighthouse / Accessibility | Matched for and id |
+| 6 | Wrong stylesheet path in bugs.html | Network | Linked bugs.css |
+| 7 | Misspelled colour property in bugs.css | Styles Pane | Changed colour to color |
+| 8 | Missing semicolon in bugs.css | Styles Pane | Added semicolon |
+| 9 | CSS selector did not match in bugs.css | Styles Pane | Changed .notes to .note |
+| 10 | Button had no explicit type in bugs.html | Code inspection | Added type="submit" |
